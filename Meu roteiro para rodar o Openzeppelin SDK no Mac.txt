@@ -1,0 +1,23 @@
+Meu roteiro para rodar o Openzeppelin SDK no Mac
+
+Instalar o Python 2
+brew install python@2
+
+Instalar o SHA3
+npm install sha3
+
+Rodar o comando com usuario nao-root
+# npm install --global sha3@1.2.3
+
+Rodar o comando com usuario nao-root
+# npm install --global @openzeppelin/cli
+
+Atualizar o ganche
+npm install -g ganache-cli 
+
+Agora para deployment na Testnet.
+https://forum.openzeppelin.com/t/deploy-to-a-public-testnet-using-openzeppelin-sdk/941
+
+Rodar como Root aqui
+sudo npm install --save-dev truffle-hdwallet-provider
+
